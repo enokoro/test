@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#debug {
+  position: absolute;
+  z-index: 999;
+  top: 50px;
+  right: 0;
+  display: none;
+  display: block;
+  padding: 5px;
+  opacity: .8;
+  color: #fff;
+  background: #666;
+}
+
+#test:after {
+  content: 'SP';
+}
+
+body, section, div, dl, dt, dd, ul, ol, li, h1, h2, h3, p, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+body, section, div, dt, dd, li, h1, h2, h3, p, th, td, small, em {
+  font-family: 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
